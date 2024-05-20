@@ -1,12 +1,16 @@
 const prompt = require('prompt-sync')();
-
-//old method function
-function deposit(){
-    
-
-}
-
 //new method
 const deposit=()=>{
-    console.log('Deposit')
-}
+    console.log('welcome');
+    const amount = prompt('enter deposit amount');
+    return amount;
+    }
+
+    console.log (deposit());
+
+
+
+
+
+
+    
